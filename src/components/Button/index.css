@@ -1,0 +1,26 @@
+button {
+  /* Medium */
+
+  width: 60px;
+  height: 18px;
+
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  /* identical to box height, or 112% */
+
+  display: flex;
+  align-items: center;
+
+  /* Surface */
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}

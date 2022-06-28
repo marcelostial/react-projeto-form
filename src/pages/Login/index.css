@@ -1,20 +1,30 @@
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 620px;
+  height: 763px;
+  left: 192px;
+  top: 293px;
 
-.baseContainer{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100vh;
+  background: #ffffff;
+  border-radius: 20px;
+  flex-direction: column;
 }
 
+header {
+  display: flex;
+}
 
-#container{
-    display: flex;
-    width: 620px;
-    height: 763px;
-    left: 192px;
-    top: 293px;
+h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 24px;
+  color: #111111;
 
-    background: #FFFFFF;
-    border-radius: 20px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
